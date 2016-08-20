@@ -1,0 +1,13 @@
+html, body{
+	height: 100%;
+}
+.header{
+	margin-top: 100px;
+	text-align: center;
+}
+a{
+	cursor: pointer;
+}
+.form-body{
+	padding-top: 80px;
+}
