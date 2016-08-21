@@ -7,10 +7,10 @@
  */
 
 class DatabaseConnector {
-    private $dbHost =  "mysql:host=localhost;";
-    private $dbName = "dbName=quiCue";
-    private $username = "root";
-    private $password = "";
+    protected  $dbHost =  "mysql:host=localhost;";
+    protected  $dbName = "dbname=quiCue";
+    protected  $username = "root";
+    protected  $password = "";
     protected $dbHolder;
 
     protected function open_connection() {
