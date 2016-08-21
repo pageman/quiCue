@@ -1,0 +1,67 @@
+body {
+    margin: 0px auto;
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size:1.5em;
+}
+header{
+    padding-top: 115px;
+}
+.navbar-default {
+    margin: 0px auto;
+    background-color: #EC644B;
+    height: 6em;
+    padding-top: .5em;
+}
+.btn-b {
+    width: 10em;
+    height: 4em;
+}
+#btn-menu {
+    width:3em;
+    float: right;
+    background-color: #EC644B;
+}
+.test {
+    margin: 0px auto;
+
+}
+.btn-register {
+    float:right;
+    text-align:right;
+}
+
+.test1 {
+    width: 100%;
+}
+a{
+    cursor: pointer;
+}
+.logoPic > img {
+    width:8em;
+    float:left;
+}
+
+.logoPic > h2 {
+    float: left;
+    color: white;
+}
+.mid{
+    margin: auto 0;
+}
+.panel-body{
+    overflow-y: scroll;
+    height: 305px;
+}
+.panel-notif{
+    overflow-y: scroll;
+    height: 360px;
+}
+footer{
+    margin: 20px;
+}
+@media (min-width: 320px) and (max-width: 568px){
+    body{
+        font-size: 12px;
+    }
+}

@@ -1,13 +1,200 @@
-html, body{
-	height: 100%;
+body {
+	margin: 0px auto;
+	font-family: "Quicksand";
+   font-weight: 700;
+	 font-size:1.5em;
 }
-.header{
-	margin-top: 100px;
-	text-align: center;
+.form-body-login{
+	padding-top: 110px;
 }
+
+.circle {
+	float: right;
+}
+
+.hovPic:hover {
+	background-color: #282828;
+	color: white;
+}
+.hovPic {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+a {
+	color: #D91E18;
+}
+a:visited {
+	text-decoration: none;
+	color: #D91E18;
+}
+
+a:hover {
+ text-decoration: none;
+ color: #282828;
+ font-size: 1.3em;
+}
+.main {
+	margin: 0px auto;
+}
+button {
+	width: 10em;
+	height: 4em;
+}
+
+.instruction {
+	background-color:  #EC644B;
+	color: #EEE;
+}
+
+#btn-menu {
+	width:3em;
+	float: right;
+	background-color: #EC644B;
+}
+
+
+
+.rightPane {
+	margin: 0px auto;
+
+}
+.btn-register {
+	float:right;
+	text-align:right;
+}
+
+.logoPic > img {
+	width:8em;
+	float:left;
+}
+
+.logoPic > h2 {
+	float: left;
+	color: white;
+}
+
+
+
+.test {
+	margin: 0px auto;
+
+}
+
+.test1 {
+	width: 100%;
+}
+
+.input-group{
+	margin: auto;
+	width: 70%;
+	border-radius: none;
+}
+.input-group-addon {
+	border-radius: none;
+}
+
+.navbar-default {
+	margin: 0px auto;
+	background-color: #EC644B;
+	height: 6em;
+	padding-top: .5em;
+}
+
 a{
 	cursor: pointer;
 }
+.header{
+	padding-top:7em;
+	text-align: center;
+}
+.head, .lead{
+	text-align: center;
+}
+.lead {
+	font-size: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+
+textarea {
+	text-align: left;
+}
+
+.homelead {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size: 1.4em;
+}
+.img-logo{
+	margin: auto 0;
+}
 .form-body{
 	padding-top: 80px;
+}
+.btn-reg{
+	margin: 0px auto;
+	text-align: center;
+}
+.img-center{
+	margin: auto;
+}
+.img-ico{
+	width: 10em;
+}
+.img-ico-label{
+	text-align: center;
+	margin-top: 0px;
+}
+.img-ico-right-center{
+	margin-left: 80%;
+}
+footer{
+	margin: 20px;
+}
+@media (max-width: 767px){
+	.header{
+		font-size: 15px;
+	}
+	.input-group{
+		margin: auto;
+		width: 70%;
+		border-radius: none;
+	}
+	.input-group-addon {
+		border-radius: none;
+	}
+
+	input[type=text]{
+		border: none;
+		border-radius: 0px;
+	}
+	.img-ico{
+		width: 200px;
+		padding-bottom: 10px;
+	}
+	.img-ico-right-center{
+		margin: auto;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+	.header{
+		font-size: 15px;
+	}
+	.input-group{
+		margin: auto;
+		width: 80%;
+		border-radius: none;
+	}
+	.input-group-addon {
+		border-radius: none;
+	}
+	.img-ico{
+		width: 200px;
+		padding-bottom: 10px;
+	}
+	.img-ico-right-center{
+		margin: auto;
+	}
 }
