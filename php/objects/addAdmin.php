@@ -13,6 +13,8 @@
     $name = $_POST["name"];
     $username = $_POST["username"];
     $password =$_POST["password"];
+    $telephoneNumber = $_POST["telephoneNumber"];
+    $mobileNumber = $_POST["mobileNumber"];
 
     $obj = new Functions();
-    $obj->addAdmin($type, $address, $name, $username, $password);
+    $obj->addAdmin($type, $address, $name, $username, $password, $telephoneNumber, $mobileNumber);

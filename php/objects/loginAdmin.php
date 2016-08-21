@@ -3,12 +3,13 @@
  * Created by PhpStorm.
  * User: Marejean
  * Date: 8/20/16
- * Time: 2:20 PM
+ * Time: 4:27 PM
  */
 
     include_once "../controller/Functions.php";
 
-    $verificationCodeEntered = $_POST["verificationCodeEntered"];
+    $username = $_POST["username"];
+    $password = $_POST["password"];
 
     $obj = new Functions();
-    $obj->checkVerificationCode($verificationCodeEntered);
+    $obj->loginAdmin($username, $password);

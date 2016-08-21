@@ -10,6 +10,7 @@
 
     $adminId = $_POST["adminId"];
     $message = $_POST["message"];
+    $userLocation = $_POST["userLocation"];
 
     $obj = new Functions();
-    $obj->addLog($adminId, $message);
+    $obj->addLog($adminId, $message, $userLocation);
